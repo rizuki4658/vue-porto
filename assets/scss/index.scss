@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.text-main {
+    color: #372c34;
+}
+header {
+  line-height: 4;
+}
+.nav-item {
+  color: white;
+  font-weight: 700;
+  transition: opacity .3s ease-in-out;
+  &:hover,
+  &.active {
+    opacity: .5;
+  }
+}
+section#hero {
+  background-image: url('/img/bg.png');
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+// .text-xl {
+//   font-size: 4rem;
+// }
+// .text-2lg {
+//   font-size: 2rem;
+// }
+.main-title {
+  text-align: center;
+  margin-bottom: 5rem;
+  h1 {
+    font-size: 3rem;
+    position: relative;
+    margin-bottom: 1rem;
+    padding-bottom: .6rem;
+    &::before {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      height: 2px;
+      width: 100px;
+      content: "";
+      background: #777777;
+      margin-left: -50px;
+    }
+    &::after {
+      position: absolute;
+      left: 50%;
+      bottom: -4px;
+      height: 10px;
+      width: 10px;
+      content: "";
+      background: #777777;
+      margin-left: -5px;
+      border-radius: 50%;
+    }
+  }
+  &.two {
+    text-align: left;
+    h1 {
+      &::before {
+        left: 0;
+      margin-left: 0px;
+      }
+      &::after {
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #777777;
+    margin-bottom: 0px;
+    margin: auto;
+  }
+}
+.container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+section + section {
+  margin-top: 8rem;
+}
+.works-filter {
+  background: #777777;
+}
+.list-item {
+  display: inline-block;
+  margin-right: 3rem;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.filter.list {
+  &::after {
+    position: absolute;
+    left: 2%;
+    bottom: -10px;
+    height: 100%;
+    width: 96%;
+    content: "";
+    background: #77777750;
+    z-index: -1;
+  }
+}
+.work-item {
+  .work-overlay {
+    height: 0;
+    transition: height .3s ease-in-out;
+  }
+  &:hover {
+    .work-overlay {
+      height: 100%;
+      background: #77777790;
+    }
+  }
+}
+.bg-dark {
+  background-color: #777777;
+}

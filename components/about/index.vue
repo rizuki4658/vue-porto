@@ -20,3 +20,10 @@
     </div>
   </section>
 </template>
+
+<script lang="ts">
+import Vue from 'vue';
+import Component from 'nuxt-class-component';
+@Component({})
+export default class ComponentAbout extends Vue {}
+</script>

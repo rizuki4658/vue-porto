@@ -1,11 +1,11 @@
-
 <template>
   <transition name="my-layouts">
     <div>
-      <vp-hero :name="profile.name" :profession="profile.profession"/>
+      <div class="bg-dark h-16" />
+
+      <div class="mb-40"/>
+
       <vp-works :items="filters" :works="profile.works" />
-      <vp-about />
-      <vp-experience />
     </div>
   </transition>
 </template>
@@ -20,7 +20,7 @@ import { appStore } from '~/store';
     name: 'my-layouts'
   }
 })
-export default class Home extends Vue {
+export default class Portofolio extends Vue {
   data() {
     return {
       profile: appStore.profile,

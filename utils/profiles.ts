@@ -22,6 +22,13 @@ export const Profile: object = {
       name: 'example vue',
       url: 'https://github.com/rizuki4658/example-vue',
       img: 'train-three.jpg'
+    },
+    {
+      id: 4,
+      type_id: [1],
+      name: 'nuxt porto',
+      url: 'https://github.com/rizuki4658/vue-porto',
+      img: 'train-four.png'
     }
   ],
   experiences: [
@@ -45,6 +52,78 @@ export const Profile: object = {
       url: 'https://www.linkedin.com/company/devixel/about/',
       time: '2021 Agt - Present',
       jobdesk: 'Implement designs that have been done by the UI team, then create, test, and optimize UI/UX products, this includes product compatibility and functionality. Library using Vuejs v3.'
+    }
+  ],
+  skills: [
+    {
+      value: 55,
+      name: 'Adobe Photoshop',
+      icon: 'photoshop'
+    },
+    {
+      value: 45,
+      name: 'Adobe XD',
+      icon: 'xd'
+    },
+    {
+      value: 30,
+      name: 'Adobe Illustrator',
+      icon: 'ai'
+    },
+    {
+      value: 90,
+      name: 'HTML',
+      icon: 'html5'
+    },
+    {
+      value: 90,
+      name: 'CSS',
+      icon: 'css3'
+    },
+    {
+      value: 80,
+      name: 'Javascript',
+      icon: 'js'
+    },
+    {
+      value: 50,
+      name: 'Node JS',
+      icon: 'node'
+    },
+    {
+      value: 70,
+      name: 'MySql',
+      icon: 'mysql-2'
+    },
+    {
+      value: 60,
+      name: 'PHP',
+      icon: 'php-1'
+    },
+    {
+      value: 80,
+      name: 'Vue',
+      icon: 'vue'
+    },
+    {
+      value: 70,
+      name: 'React',
+      icon: 'react'
+    },
+    {
+      value: 60,
+      name: 'Laravel',
+      icon: 'laravel'
+    },
+    {
+      value: 50,
+      name: 'Git',
+      icon: 'github-1'
+    },
+    {
+      value: 50,
+      name: 'Type Script',
+      icon: 'typescript'
     }
   ]
 };

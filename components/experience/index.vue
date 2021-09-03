@@ -68,7 +68,7 @@ import Vue from 'vue';
 import Component from 'nuxt-class-component';
 import { appStore } from '~/store';
 @Component({})
-export default class Experience extends Vue {
+export default class ComponentExperience extends Vue {
   data() {
     return {
       profile: appStore.profile,

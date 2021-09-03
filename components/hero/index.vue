@@ -17,5 +17,5 @@ import Component from 'nuxt-class-component';
     profession: String
   }
 })
-export default class Hero extends Vue {}
+export default class ComponentHero extends Vue {}
 </script>

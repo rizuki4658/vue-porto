@@ -24,8 +24,10 @@
       ]
     },
     "types": [
+      "@types/node",
       "@nuxt/types",
-      "@types/node"
+      "@nuxtjs/axios",
+      "~/types",
     ]
   },
   "exclude": [
